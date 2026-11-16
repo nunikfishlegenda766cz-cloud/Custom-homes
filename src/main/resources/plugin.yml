@@ -1,0 +1,14 @@
+name: DonutHome
+version: 1.0
+main: cz.tvojeserver.donuthome.DonutHome
+api-version: '1.20'
+commands:
+  home:
+    description: Otevre menu domovu nebo teleportuje
+    usage: /home [cislo]
+  sethome:
+    description: Nastavi domov
+    usage: /sethome [cislo]
+  delhome:
+    description: Smaze domov
+    usage: /delhome [cislo]
